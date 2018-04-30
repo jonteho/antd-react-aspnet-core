@@ -1,5 +1,5 @@
 {
-  "name": "AntAdmin.Web",
+  "name": "AntAdmin",
   "private": true,
   "version": "0.0.0",
   "dependencies": {
@@ -10,9 +10,13 @@
     "@types/react-router": "^4.0.24",
     "@types/react-router-dom": "^4.2.6",
     "@types/webpack-env": "1.13.0",
+    "antd": "^3.4.4",
     "aspnet-webpack": "^2.0.1",
     "aspnet-webpack-react": "^3.0.0",
     "awesome-typescript-loader": "3.2.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.7.0",
     "css-loader": "0.28.4",
     "event-source-polyfill": "0.0.9",
     "extract-text-webpack-plugin": "2.1.2",
@@ -20,17 +24,18 @@
     "isomorphic-fetch": "2.2.1",
     "jquery": "3.2.1",
     "json-loader": "0.5.4",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-hot-loader": "3.0.0-beta.7",
+    "react-router": "^4.2.0",
     "react-router-dom": "^4.2.0",
+    "redbox-react": "^1.6.0",
     "style-loader": "0.18.2",
     "typescript": "2.4.1",
     "url-loader": "0.5.9",
     "webpack": "2.5.1",
-    "webpack-hot-middleware": "2.18.2",
-    "antd": "^3.4.4",
-    "react-router": "^4.2.0",
-    "redbox-react": "^1.6.0"
+    "webpack-hot-middleware": "2.18.2"
   }
 }

@@ -22,10 +22,20 @@
   
 .logo {
     height: 32px;
-    background: rgba(3, 1, 1, 0.2);
-    margin: 16px;
+    margin: 14px;
+}
+
+.logo-expand {
+    background: url("../img/placeholder_logo.svg") no-repeat top left;
+}
+.logo-collapsed {
+    background: url("../img/placeholder_logo_collapsed.svg") no-repeat top left;
 }
 
 .ant-menu-inline-collapsed > span.menuItemText {
     display:none;
+}
+
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left {
+    border-right: 0 !important;
 }

@@ -25,7 +25,7 @@ export class AppLayout extends React.Component<LayoutProps, {}> {
           collapsible
           collapsed={this.state.collapsed}
         >
-          <div className="logo" />
+          <div id="logo" className="logo logo-expand" />
           <Menu theme="light" mode="inline" defaultSelectedKeys={['1']}>
             <Menu.Item key="1">
                 <span><Icon type="home" /><span className="menuItemText">Home</span></span>

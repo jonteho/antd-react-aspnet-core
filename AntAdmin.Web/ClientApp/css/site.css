@@ -14,7 +14,10 @@
 }
   
 .trigger:hover {
-    color: #1890ff
+    color: lightgrey;
+}
+.trigger {
+    color: #ff5622;
 }
   
 .logo {

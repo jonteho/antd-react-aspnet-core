@@ -39,6 +39,10 @@ export class AppLayout extends React.Component<LayoutProps, {}> {
                 <span><Icon type="upload" /><span className="menuItemText">Fetch Data</span></span>
               <NavLink to={ '/fetchdata' } activeClassName='active'></NavLink>
             </Menu.Item>
+            <Menu.Item key="4">
+                <span><Icon type="user" /><span className="menuItemText">Login</span></span>
+              <NavLink to={ '/login' } activeClassName='active'></NavLink>
+            </Menu.Item>
             <SubMenu key="sub1" title={<span><Icon type="upload" /><span className="menuItemText">Submenu</span></span>}>
                  <Menu.Item key="1">
                  <NavLink to={ '/' } exact activeClassName='active'>

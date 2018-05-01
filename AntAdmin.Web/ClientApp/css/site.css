@@ -26,10 +26,10 @@
 }
 
 .logo-expand {
-    background: url("../img/placeholder_logo.svg") no-repeat top left;
+    background: url("../img/logo.svg") no-repeat top left;
 }
 .logo-collapsed {
-    background: url("../img/placeholder_logo_collapsed.svg") no-repeat top left;
+    background: url("../img/logo_collapsed.svg") no-repeat top left;
 }
 
 .ant-menu-inline-collapsed > span.menuItemText {
